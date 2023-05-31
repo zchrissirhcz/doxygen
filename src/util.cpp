@@ -2716,7 +2716,7 @@ bool getDefs(const QCString &scName,
              bool checkCV
             )
 {
-  if (false) // set this to true to try the old and new routine side-by-side and compare the results
+  if (true) // set this to true to try the old and new routine side-by-side and compare the results
   {
     printf("@@ ------ getDefsOld start\n");
     bool result = getDefsOld(scName,mbName,args,md,cd,fd,nd,gd,forceEmptyScope,currentFile,checkCV);
